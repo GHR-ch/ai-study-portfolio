@@ -1,5 +1,4 @@
-[Uploading README.md…]()
-# ai-study-portfolio# AI 学习作品集 · AI Study Portfolio
+# AI 学习作品集 · AI Study Portfolio
 
 > 一个高中生的 AI 素养（AI Literacy）学习记录仓 —— 用三年时间，从"会用 AI"到"能拿 AI 解决问题"。
 
