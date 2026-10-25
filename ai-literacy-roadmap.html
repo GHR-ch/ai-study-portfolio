@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>高中生 AI 素养路线图（零基础版）</title>
+<style>
+  :root{
+    --bg:#f7f8fb; --card:#ffffff; --ink:#1f2430; --muted:#6b7280;
+    --brand:#4f46e5; --brand2:#0ea5e9; --ok:#16a34a; --warn:#d97706;
+    --line:#e5e7eb;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+    background:var(--bg);color:var(--ink);line-height:1.7;padding:32px 16px}
+  .wrap{max-width:880px;margin:0 auto}
+  header{text-align:center;margin-bottom:8px}
+  h1{font-size:28px;letter-spacing:.5px}
+  .sub{color:var(--muted);margin-top:6px;font-size:15px}
+  .banner{background:linear-gradient(135deg,#4f46e5,#0ea5e9);color:#fff;
+    border-radius:16px;padding:22px 24px;margin:24px 0;text-align:center;
+    box-shadow:0 8px 24px rgba(79,70,229,.18)}
+  .banner b{font-size:18px}
+  .banner p{margin-top:8px;opacity:.95;font-size:14px}
+  section{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:22px 24px;margin:18px 0;box-shadow:0 2px 8px rgba(0,0,0,.03)}
+  h2{font-size:19px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+  h2 .dot{width:10px;height:10px;border-radius:50%;background:var(--brand)}
+  .phase{border-left:4px solid var(--brand);padding:14px 16px;margin:12px 0;
+    background:#fafaff;border-radius:0 10px 10px 0}
+  .phase h3{font-size:16px;color:var(--brand);margin-bottom:6px}
+  .phase ul{margin:6px 0 0 18px;font-size:14.5px}
+  .phase li{margin:4px 0}
+  .tag{display:inline-block;font-size:12px;padding:2px 8px;border-radius:999px;
+    background:#eef2ff;color:var(--brand);margin-right:4px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .tool{border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+  .tool b{color:var(--brand2)}
+  .tool span{display:block;color:var(--muted);font-size:13px;margin-top:3px}
+  table{width:100%;border-collapse:collapse;font-size:14px;margin-top:6px}
+  th,td{border:1px solid var(--line);padding:9px 11px;text-align:left}
+  th{background:#f3f4f6;font-weight:600}
+  .warn{border-left:4px solid var(--warn);background:#fffbeb;padding:12px 16px;
+    border-radius:0 10px 10px 0;font-size:14.5px}
+  .ok{border-left:4px solid var(--ok);background:#f0fdf4;padding:12px 16px;
+    border-radius:0 10px 10px 0;font-size:14.5px}
+  footer{text-align:center;color:var(--muted);font-size:13px;margin-top:24px}
+  @media(max-width:640px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🚌 高中生 AI 素养路线图</h1>
+    <div class="sub">零基础 · 三年规划 · 为大学与职场打底 · 由小巴为你定制</div>
+  </header>
+
+  <div class="banner">
+    <b>核心目标：不是"学会 AI 编程"，而是成为"会用、懂点原理、能拿 AI 解决问题"的人。</b>
+    <p>AI 素养是未来十年的底层能力，比任何单一学科都更"通用"。高中三年把它练熟，你已经领先一大步。</p>
+  </div>
+
+  <section>
+    <h2><span class="dot"></span>先立两条底线（比技术更重要）</h2>
+    <div class="warn">
+      <b>① 学术诚信：</b>用 AI 帮你"搞懂"，不要让它替你"交差"。作业、考试里直接抄 AI 输出 = 作弊，而且你什么也学不到。正确姿势：让 AI 讲思路 → 自己写 → 再让 AI 挑错。
+    </div>
+    <div class="ok" style="margin-top:10px">
+      <b>② 信息辨别：</b>AI 会一本正经地胡说（这叫"幻觉"）。任何它给的事实、数据、引用，尤其是考试相关内容，一定要自己核实（查课本 / 权威网站）。
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="dot"></span>三年路线图</h2>
+
+    <div class="phase">
+      <h3>🟦 高一：把 AI 用熟 + 提示词入门</h3>
+      <ul>
+        <li>每天用 AI 做一件真实的学习小事：整理课堂笔记、解释不懂的概念、出练习题。</li>
+        <li>学<b>提示词（Prompt）</b>：角色 + 任务 + 要求 + 格式。例如"你是高中物理老师，用生活例子讲清牛顿第三定律，最后出 3 道选择题"。</li>
+        <li>建立自己的"AI 工具箱"，挑 2–3 个主力用透。</li>
+        <li><span class="tag">目标</span>能写出清晰指令，让 AI 稳定产出好结果。</li>
+      </ul>
+    </div>
+
+    <div class="phase" style="border-color:var(--brand2);background:#f0f9ff">
+      <h3 style="color:var(--brand2)">🟦 高二：用 AI 做项目 + 懂点原理</h3>
+      <ul>
+        <li>做 1–2 个<b> AI 辅助小项目</b>：比如用 AI 帮查资料写一份学科研究报告、做个知识卡片库、搭一个学习提醒机器人。</li>
+        <li>理解核心概念（不用写代码）：什么是模型 / 训练 / 推理 / 大模型 / RAG，为什么 AI 会犯错。</li>
+        <li>尝试<b>低代码搭智能体</b>：扣子（Coze）、Dify，拖拽就能做。</li>
+        <li><span class="tag">目标</span>能"用 AI 完成一件完整的事"，而不只是聊两句。</li>
+      </ul>
+    </div>
+
+    <div class="phase" style="border-color:var(--ok);background:#f0fdf4">
+      <h3 style="color:var(--ok)">🟩 高三：沉淀作品 + 铺垫方向</h3>
+      <ul>
+        <li>把前两年的成果整理成<b>作品集</b>（研究笔记、智能体、项目截图），大学面试 / 综评能用。</li>
+        <li>结合目标专业想清楚：要不要学一点编程？想走 AI 方向，高三毕业后的暑假是入门 Python 的好时机。</li>
+        <li>保持"AI + 人"的协作习惯，别依赖成惰性。</li>
+        <li><span class="tag">目标</span>有一份能讲清楚"我用 AI 做过什么"的经历。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="dot"></span>你的 AI 工具箱（国内可直接用）</h2>
+    <div class="grid">
+      <div class="tool"><b>通用聊天 / 答疑</b><span>通义千问、文心一言、Kimi、ChatGPT（需网络）</span></div>
+      <div class="tool"><b>查资料 / 读长文</b><span>Kimi（长文档）、秘塔 AI 搜索、Perplexity</span></div>
+      <div class="tool"><b>学习辅助</b><span>配备 AI 的笔记（如 Notion AI）、错题整理、背单词 AI</span></div>
+      <div class="tool"><b>生图 / 创意</b><span>即梦、通义万相、Midjourney</span></div>
+      <div class="tool"><b>搭智能体（低代码）</b><span>扣子 Coze、Dify、n8n</span></div>
+      <div class="tool"><b>我（小巴）</b><span>陪你规划、做资料、写工具、回答问题</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="dot"></span>30 天入门挑战（从今天开始）</h2>
+    <table>
+      <tr><th>周次</th><th>任务</th><th>产出</th></tr>
+      <tr><td>第 1 周</td><td>每天换一种方式问 AI 同一个问题，对比质量</td><td>写出你的"好提示词模板"</td></tr>
+      <tr><td>第 2 周</td><td>用 AI 整理一章笔记 + 出 10 道自测题</td><td>一份知识卡片</td></tr>
+      <tr><td>第 3 周</td><td>让 AI 帮你查资料，做一份小主题报告</td><td>1 页研究摘要</td></tr>
+      <tr><td>第 4 周</td><td>试试用扣子搭一个"学习助手"智能体</td><td>能用的小机器人</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2><span class="dot"></span>高中生最常踩的 3 个坑</h2>
+    <div class="warn">
+      1. <b>直接抄答案</b>——爽一时，考试现原形，能力零增长。<br>
+      2. <b>迷信 AI 说的每句话</b>——它是"自信的复读机"，关键事实必须核实。<br>
+      3. <b>一上来就啃 Python</b>——顺序反了。先"用"熟，需求自然会把你推向"学"。
+    </div>
+  </section>
+
+  <footer>
+    小巴陪你一起练 · 路线不是死规矩，随时按你的节奏调整 🚌
+  </footer>
+</div>
+</body>
+</html>
