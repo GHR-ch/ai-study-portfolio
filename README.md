@@ -11,7 +11,10 @@
 | 文件 | 说明 |
 |------|------|
 | `docs/ai-literacy-roadmap.html` | 高中生 AI 素养三年路线图（零基础版） |
-| _更多产出持续更新中_ | 提示词集 · 视频笔记卡 · 小项目 |
+| `docs/prompt-engineering.md` | 提示词工程笔记：五要素、填空模板、弱科现成提示词、练习打卡 |
+| `docs/ai-deception-note.md` | 视频笔记卡：AI 欺骗事件「事实 vs 叙事」信息辨别练习 |
+| `docs/weekly-routine.md` | 我的学习作息系统：工作日节奏、碎片时间、周日安排、弱科突破 |
+| `docs/learning-log.md` | 成长日志：记录每一段"用 AI 做过什么 / 学到什么" |
 
 ## 两条原则（贯穿所有学习产出）
 
